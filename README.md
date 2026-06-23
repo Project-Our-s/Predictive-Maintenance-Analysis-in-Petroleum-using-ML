@@ -82,7 +82,7 @@ A dedicated SQL analytics layer was developed to investigate operational behavio
 
 🎛️ 4. Live SCADA Simulator (Streamlit):
 
- ![Normal](Screenshots/App/normal.png)
+ ![Normal](Screenshots/App/Normal.png)
 
 🖥️Deployed a real-time, interactive edge-computing application (app_simulated.py) to demonstrate the live deployment of the ML engine within a simulated control-room environment.
 
@@ -96,7 +96,7 @@ A dedicated SQL analytics layer was developed to investigate operational behavio
 
  🚨 Severe Multiphase Slugging Instability: Triggers a crimson alert when high-frequency cyclic wave pressure variance is intercepted.
 
- ![Slugging](Screenshots/App/slugging.png)
+ ![Slugging](Screenshots/App/Slugging.png)
 
  🟠 Thermodynamic Gas Hydrate Formation: Triggers an amber alert when severe sub-cooling temperatures intersect with massive differential pressure drops.
 
