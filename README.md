@@ -6,7 +6,7 @@ Oil & gas production systems generate thousands of telemetry signals every day, 
 
 The primary objective is to support proactive maintenance decisions, reduce unplanned downtime, and improve asset reliability through data-driven monitoring and anomaly detection.
 
-🚨Business Problem
+## 🚨Business Problem
 
 Unexpected production anomalies can lead to:
 
@@ -18,7 +18,7 @@ Unexpected production anomalies can lead to:
 
 Traditional monitoring systems often identify problems only after production has already been affected. This project aims to detect abnormal operating conditions early by leveraging historical telemetry data and unsupervised machine learning techniques.
 
-📂Dataset
+## 📂Dataset
 
 The project uses the  Oil & Gas Dataset, containing telemetry records from three major operational states:
 
@@ -28,7 +28,7 @@ The project uses the  Oil & Gas Dataset, containing telemetry records from three
 
 🟠 Severe Slugging Conditions: Represents unstable multiphase flow behavior characterized by large pressure fluctuations and production instability.
 
-📝Project Workflow
+## 📝Project Workflow
 
 ⚙️ 1. Data Engineering & Preprocessing
 
