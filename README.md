@@ -1,6 +1,6 @@
-Predictive Maintenance Analysis using Machine Learning
+# Predictive Maintenance Analysis using Machine Learning
 
-📝Overview
+## 📝Overview
 
 Oil & gas production systems generate thousands of telemetry signals every day, making it difficult to manually identify abnormal operating conditions before they impact production. This project develops an end-to-end Predictive Maintenance and Industrial Anomaly Detection System using the 3W Oil & Gas Dataset. The solution combines Python, PostgreSQL, SQL analytics, Machine Learning, Power BI dashboards, and an interactive SCADA simulator to detect operational anomalies such as hydrate formation, severe slugging, pressure instability, and abnormal production behavior.
 
