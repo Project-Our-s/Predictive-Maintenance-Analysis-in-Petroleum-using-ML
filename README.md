@@ -2,7 +2,7 @@
 
 ## 📝Overview
 
-Oil & gas production systems generate thousands of telemetry signals every day, making it difficult to manually identify abnormal operating conditions before they impact production. This project develops an end-to-end Predictive Maintenance and Industrial Anomaly Detection System using the 3W Petrobars Oil & Gas Dataset. The solution combines Python, PostgreSQL, SQL analytics, Machine Learning, Power BI dashboards, and an interactive SCADA simulator to detect operational anomalies such as hydrate formation, severe slugging, pressure instability, and abnormal production behavior.
+Oil & gas production systems generate thousands of telemetry signals every day, making it difficult to manually identify abnormal operating conditions before they impact production. This project develops an end-to-end Predictive Maintenance and Industrial Anomaly Detection System using the 3W Dataset(Petrobars).The solution combines Python, PostgreSQL, SQL analytics, Machine Learning, Power BI dashboards, and an interactive SCADA simulator to detect operational anomalies such as hydrate formation, severe slugging, pressure instability, and abnormal production behavior.
 
 The primary objective is to support proactive maintenance decisions, reduce unplanned downtime, and improve asset reliability through data-driven monitoring and anomaly detection.
 
