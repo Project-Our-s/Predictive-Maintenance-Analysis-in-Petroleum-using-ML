@@ -6,6 +6,10 @@ Oil & gas production systems generate thousands of telemetry signals every day, 
 
 The primary objective is to support proactive maintenance decisions, reduce unplanned downtime, and improve asset reliability through data-driven monitoring and anomaly detection.
 
+## 🔗 Link to Dataset:
+
+https://drive.google.com/drive/folders/1rWLJeOrsPL_IIUFPFbelddBXm9C_rIwz?usp=drive_link
+
 ## 🚨Business Problem
 
 Unexpected production anomalies can lead to:
