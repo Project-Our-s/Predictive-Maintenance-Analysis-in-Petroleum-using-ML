@@ -33,18 +33,27 @@ The project uses the  Oil & Gas Dataset, containing telemetry records from three
 🟠 Severe Slugging Conditions: Represents unstable multiphase flow behavior characterized by large pressure fluctuations and production instability.
 
 ## 📝Project Workflow
+
 ```mermaid
-flowchart TD
-    A[3W Petroleum Dataset] --> B[Data Preprocessing]
-    B --> C[Feature Engineering]
-    C --> D[Isolation Forest Model]
-    D --> E[Model Training & Evaluation]
-    E --> F[Trained ML Model (.pkl)]
+flowchart LR
+    A["📊 3W Petroleum Dataset"]
+    B["🧹 Data Preprocessing"]
+    C["⚙️ Feature Engineering"]
+    D["🤖 Isolation Forest"]
+    E["📈 Model Training & Evaluation"]
+    F["💾 Trained Model"]
+    G["🖥️ Streamlit SCADA Simulator"]
+    H["📊 Power BI Dashboard"]
+    I["🛠️ Predictive Maintenance & Early Fault Detection"]
 
-    F --> G[Streamlit SCADA Simulator]
-    F --> H[Power BI Dashboard]
-
-    G --> I[Predictive Maintenance]
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    F --> H
+    G --> I
     H --> I
 ```
 
