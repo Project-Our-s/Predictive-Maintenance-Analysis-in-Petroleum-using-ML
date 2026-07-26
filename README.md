@@ -34,27 +34,45 @@ The project uses the  Oil & Gas Dataset, containing telemetry records from three
 
 ## 📝Project Workflow
 
-```mermaid
-flowchart LR
-    A["📊 3W Petroleum Dataset"]
-    B["🧹 Data Preprocessing"]
-    C["⚙️ Feature Engineering"]
-    D["🤖 Isolation Forest"]
-    E["📈 Model Training & Evaluation"]
-    F["💾 Trained Model"]
-    G["🖥️ Streamlit SCADA Simulator"]
-    H["📊 Power BI Dashboard"]
-    I["🛠️ Predictive Maintenance & Early Fault Detection"]
+```                          Predictive Maintenance Analysis
+                         for Petroleum Production Systems
 
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    F --> H
-    G --> I
-    H --> I
+┌────────────┐
+│ 3W Dataset │
+└─────┬──────┘
+      │
+      ▼
+┌────────────────────────┐
+│ Data Preprocessing     │
+│ • Cleaning             │
+│ • Feature Engineering  │
+│ • Standardization      │
+└─────┬──────────────────┘
+      │
+      ▼
+┌───────────────────────────────────────────────┐
+│               Machine Learning                │
+│                                               │
+│ Isolation Forest Anomaly Detection            │
+│ Hyperparameter Optimization                   │
+│ Model Training & Evaluation                   │
+└─────┬─────────────────────────────────────────┘
+      │
+      ▼
+┌────────────────────────┐
+│ Trained ML Model (.pkl)│
+└─────┬──────────────────┘
+      │
+ ┌────┴───────────────┐
+ ▼                    ▼
+┌─────────────┐   ┌────────────────┐
+│ Streamlit   │   │ Power BI       │
+│ SCADA UI    │   │ Dashboard      │
+└────┬────────┘   └──────┬─────────┘
+     └──────────┬────────┘
+                ▼
+     Predictive Maintenance
+     & Early Fault Detection
 ```
 
 ## ⚙️ 1. Data Engineering & Preprocessing
