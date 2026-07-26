@@ -33,8 +33,22 @@ The project uses the  Oil & Gas Dataset, containing telemetry records from three
 🟠 Severe Slugging Conditions: Represents unstable multiphase flow behavior characterized by large pressure fluctuations and production instability.
 
 ## 📝Project Workflow
+```mermaid
+flowchart TD
+    A[3W Petroleum Dataset] --> B[Data Preprocessing]
+    B --> C[Feature Engineering]
+    C --> D[Isolation Forest Model]
+    D --> E[Model Training & Evaluation]
+    E --> F[Trained ML Model (.pkl)]
 
-⚙️ 1. Data Engineering & Preprocessing
+    F --> G[Streamlit SCADA Simulator]
+    F --> H[Power BI Dashboard]
+
+    G --> I[Predictive Maintenance]
+    H --> I
+```
+
+## ⚙️ 1. Data Engineering & Preprocessing
 
 The raw telemetry data was processed and consolidated before analysis.
 
