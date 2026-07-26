@@ -48,7 +48,7 @@ The raw telemetry data was processed and consolidated before analysis.
 * Generated summary statistics and correlation analysis.
 * Investigated pressure and temperature distributions across operating states.
 
-🔍 2. Advanced SQL Analytics:
+## 🔍 2. Advanced SQL Analytics:
 
 A dedicated SQL analytics layer was developed to investigate operational behavior and anomaly patterns.
 
@@ -68,7 +68,7 @@ A dedicated SQL analytics layer was developed to investigate operational behavio
 
 
 
-💡 3. Machine Learning (Unsupervised Anomaly Detection):
+## 💡 3. Machine Learning (Unsupervised Anomaly Detection):
 
 🚨To move beyond static rules and traditional univariate alarms, a machine learning pipeline was engineered to map complex, multi-sensor behavioral patterns and catch hidden multivariate anomalies before they reach critical failure thresholds.
 
@@ -84,7 +84,7 @@ A dedicated SQL analytics layer was developed to investigate operational behavio
 
 
 
-🎛️ 4. Live SCADA Simulator (Streamlit):
+## 🎛️ 4. Live SCADA Simulator (Streamlit):
 
  ![Normal](Screenshots/App/Normal.png)
 
@@ -111,7 +111,7 @@ A dedicated SQL analytics layer was developed to investigate operational behavio
 
 
 
-📊 5.Power BI Dashboards :
+## 📊 5.Power BI Dashboards :
 A dashboard was developed to monitor asset health, telemetry behavior, and machine learning outputs.
 
 ✅Fleet Operations Overview
@@ -166,7 +166,7 @@ This page visualizes affect of different parameters and what it can lead to
 * It also suggests the immediate action to take incase of Anomaly occurance.
 
 
-⚙️ Tools & Technologies
+## ⚙️ Tools & Technologies
 
 * Python
 * Pandas
@@ -181,7 +181,7 @@ This page visualizes affect of different parameters and what it can lead to
 
 
 
-🚀 Getting Started
+ ## 🚀 Getting Started
 
 📂1. Clone the repository
 
